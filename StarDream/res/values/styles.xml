@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <style name="rootContainer">
+        <item name="android:background">#F4F4F4</item>
+    </style>
+
+    <!-- loading progress -->
+    <style name="custom_loading">
+        <item name="android:layout_width">16dip</item>
+        <item name="android:layout_height">16dip</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateDrawable">@anim/loadmore_waiting_progressbar</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="home_tab_tv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/selector_tab_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_tab_line</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

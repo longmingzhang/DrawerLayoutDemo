@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weibocontent_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_sharecontent"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@color/whitef4"
+        android:gravity="start"
+        android:hint="@string/str_shareedithint"
+        android:padding="10dip"
+        android:textSize="16sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/hs_sharecontent"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_below="@+id/et_sharecontent"
+        android:background="@color/whitef4"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/whitef4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_writeblog_pics"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_writeblog_addpics"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_margin="8dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_addpic" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_sendicon"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_below="@+id/hs_sharecontent"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:text="@string/str_sharesnyc"
+            android:textColor="@color/gray66"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_sina"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginRight="10dip"
+            android:paddingLeft="5dip"
+            android:src="@drawable/logo_sinaweibo02" />
+
+        <ImageView
+            android:id="@+id/iv_qqweibo"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginRight="10dip"
+            android:paddingLeft="5dip"
+            android:src="@drawable/logo_tencentweibo02" />
+
+        <ImageView
+            android:id="@+id/iv_qqzone"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginRight="10dip"
+            android:paddingLeft="5dip"
+            android:src="@drawable/logo_qzone02" />
+    </LinearLayout>
+
+</RelativeLayout>

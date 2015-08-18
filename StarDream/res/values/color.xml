@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 常用颜色 -->
+    <color name="transparency">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="whitefa">#fafafa</color>
+    <color name="whitefb">#fbfbfb</color>
+    <color name="whitef2">#f2f2f2</color>
+    <color name="whitef4">#f4f4f4</color>
+    <color name="whitef6">#f6f6f6</color>
+    <color name="black">#000000</color>
+    <color name="black33">#333333</color>
+    <color name="gray92">#929292</color>
+    <color name="gray99">#999999</color>
+    <color name="gray66">#666666</color>
+    <color name="graye9">#e9e9e9</color>
+
+    <!-- ______________分割线______________ -->
+
+    <color name="action_bar_col">#fa4d42</color>
+
+    <drawable name="action_bar_dra">#fa4d42</drawable>
+    <drawable name="black_dra">#20000000</drawable>
+    <drawable name="white_dra">#ffffff</drawable>
+    <drawable name="gray96_dra">#969696</drawable>
+    <drawable name="transparency_dra">#00000000</drawable>
+
+    <color name="bottom_main_menu_sel">#fa4d42</color>
+    <color name="square_main_backgroung">#f4f4f4</color>
+
+</resources>

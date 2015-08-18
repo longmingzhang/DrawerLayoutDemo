@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_pull_label">向下拖动后释放</string>
+    <string name="pull_to_refresh_release_label">释放获取更新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string formatted="false" name="pull_to_refresh_refreshing_date">最后更新：%s</string>
+    <string name="pull_to_get_more">释放获取更多</string>
+    
+        <string name="pull_lv_footer_hint_normal">查看更多</string>
+    <string name="pull_to_footer_txtTip">加载中……</string>
+    <string name="pull_to_footer_loadmoreTip">加载更多</string>
+    <string name="pull_lv_header_hint_loading">正在加载...</string>
+    <string name="pull_lv_header_hint_loaded_all">已经加载所有数据</string>
+    <string name="pull_lv_footer_hint_ready">松开载入更多</string>
+    <string name="pull_lv_footer_hint_load_exception">加载失败</string>
+    <string name="pull_lv_footer_hint_load_nothing">抢沙发咯~</string>
+    
+</resources>

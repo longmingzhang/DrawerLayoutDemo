@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/square_main_backgroung"
+    android:orientation="vertical" >
+
+    <com.oraro.thenextone.widget.pulltorefresh.PullToRefreshListView
+        android:id="@+id/lv_normal_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="@dimen/job_item_margin"
+        android:footerDividersEnabled="false"
+        android:scrollbars="none" 
+        android:layout_marginTop="@dimen/job_item_margin"
+        android:layout_marginLeft="@dimen/job_item_margin"
+        android:layout_marginRight="@dimen/job_item_margin"
+        />
+
+</LinearLayout>

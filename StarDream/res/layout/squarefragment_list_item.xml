@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/squarefragment_list_item_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dip" >
+
+        <ImageView
+            android:id="@+id/squarefragment_list_item_userpic"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dip"
+            android:src="@drawable/default_userpic" />
+
+        <TextView
+            android:id="@+id/squarefragment_list_item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/squarefragment_list_item_userpic"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="TSatr"
+            android:textColor="@color/bottom_main_menu_sel"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/squarefragment_list_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/squarefragment_list_item_username"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@+id/squarefragment_list_item_userpic"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1小时前 来自：新浪微博"
+            android:textColor="@color/gray99"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/squarefragment_list_item_iv_mark"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/mark_actor" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/squarefragment_list_item_sharecontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="亲，让你久等了"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/gv_preview_container"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/main_img"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/squarefragment_list_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了亲，让你久等了"
+        android:textColor="@color/gray99"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/squarefragment_list_bottom_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@color/whitefb"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/squarefragment_list_item_tv_sharenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_share"
+                android:drawablePadding="5dip"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/gray99"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="15dip"
+            android:background="@color/graye9" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/squarefragment_list_item_tv_commentnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_comment"
+                android:drawablePadding="5dip"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/gray99"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="15dip"
+            android:background="@color/graye9" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/squarefragment_list_item_tv_zannum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_zan"
+                android:drawablePadding="5dip"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/gray99"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
